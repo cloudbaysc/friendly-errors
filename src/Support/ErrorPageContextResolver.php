@@ -25,6 +25,7 @@ class ErrorPageContextResolver
                         if (isset($entity->submitter_name))      $owner = $entity->submitter_name;
                         elseif (isset($entity->owner_name))      $owner = $entity->owner_name;
                         elseif (isset($entity->submitted_by_name)) $owner = $entity->submitted_by_name;
+                         elseif (isset($entity->created_by)) $owner = $entity->created_by;
                     } else {
                         $entityRef = ucfirst($key) . ' #' . $entity;
                     }
