@@ -1,0 +1,27 @@
+{
+  "name": "cloudbay/friendly-errors",
+  "description": "Friendly, guided 500 pages with incident IDs and human context for Laravel apps.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Cloudbay\\FriendlyErrors\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Cloudbay\\FriendlyErrors\\FriendlyErrorsServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "illuminate/support": "^10.0|^11.0"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
