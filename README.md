@@ -4,7 +4,7 @@ A Laravel package that replaces ugly 500 error pages with **friendly, non-techni
 It shows a unique **incident ID** (logged + displayed), optional **business context** (like the item and submitter), and clear **next steps** for users (support contacts, retry/back buttons).  
 
 Works out of the box for both **web** and **API** responses.  
-Perfect for FIQCUConnect, SPA, SeyCCAT, Vendly, or any Laravel project.
+Perfect for any Laravel project.
 
 ---
 
